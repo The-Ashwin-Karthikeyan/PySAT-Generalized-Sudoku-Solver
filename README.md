@@ -1,12 +1,11 @@
-What is this? \\
-This is a Generalized nxn sudoku solver. \\
+# Generalized nxn Sudoku Solver
 
-What is generalized nxn sudoku? \\
-In this version of the game, if n is not prime, then two factors p,q are taken to make the square from pxq rectangles/subboxes. The rules of sudoku are from here on easily applied. \\
+## What is Generalized nxn Sudoku?
+In this version of Sudoku, if \( n \) is not prime, it is factored into two integers \( p \) and \( q \) such that the grid is composed of \( p \times q \) rectangles (subboxes). The standard rules of Sudoku apply: each number must appear exactly once in each row, column, and subbox.
 
-How is this implemented? \\
-The sudoku solver uses the Glucose3 model from PySat. The encoding as of now is a fairly direct encoding. (detailed document will be released soon.) \\
+## How is this implemented?
+The solver uses the Glucose3 model from PySat. The current encoding is straightforward and efficient (a detailed document explaining the encoding will be released soon).
 
+## Acknowledgements
+The GUI was developed with the assistance of GPT-4.
 
-Acknowledgement: \\
-The GUI was built with the assistance of GPT-4.
